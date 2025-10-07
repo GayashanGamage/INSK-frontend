@@ -1,0 +1,24 @@
+{
+  "menu": {
+    "home": "Home",
+    "cricket": "Cricket",
+    "football": "Football",
+    "hockey": "Hockey",
+    "volleball": "Volleball",
+    "basketball": "Basketball"
+  },
+  "footer": {
+    "one": "SportBet. All rights reserved.",
+    "two": "Proudly presented for Indian Sports enthusiasts."
+  },
+  "pagetitles": {
+    "UpcomingTournaments": "Upcoming Series",
+    "UpcomingCricketMatches": "Upcoming Matches",
+    "LatestCricketNews": "Recent news"
+  },
+  "header": {
+    "title": "Slam Dunk Action: Indian Basketball Leagues",
+    "description": "Experience the thrilling dunks and fast-paced gameplay of basketball. Join the growing community and cheer for your favourite teams in India.",
+    "button": "More Details"
+  }
+}

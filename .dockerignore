@@ -1,0 +1,6 @@
+.env
+.gitignore
+.dockerignore
+seeds.txt
+node_modules
+.nuxt

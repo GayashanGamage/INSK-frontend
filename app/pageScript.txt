@@ -1,0 +1,24 @@
+
+Generate the complete code for a sport information web page. it must include parts 'upcomming cricket maches', 'cricket related news', 'upcomming tornements'. there should be a interactive image with some related text on top of the image in interactive way. 
+The design must strictly adhere to the following modern, minimalist UI system:
+
+generate a nuxtjs ui - only <templates> tags. I don't want any <script> tags and <style> tags. use tailwind css to style the page
+
+1.  **Framework:** The styling MUST use Tailwind CSS 3.x classes exclusively.
+2.  **Color Palette:** Use a dark color theme combine with this collors ( #222831, #393E46, #948979, #DFD0B8):
+        Primary Background	#1A1A2E	Page background, large negative spaces, borders	A very deep, sophisticated Navy-Black for a professional, dark, minimalist base. Offers perfect contrast for bright text.
+        Surface/Card Color	#2C394B	Elevated elements (Cards, Modals, Navigation bars)	A slightly lighter Charcoal/Dark Blue to create subtle depth and elevation above the background (#1A1A2E).
+        Primary Accent	#FF8A00	Call-to-Action (CTA) buttons, interactive elements, "Live" indicators, key metrics, heading borders	A vibrant, fiery Saffron-Orange. This color strongly signifies energy, enthusiasm, and courage, and has deep cultural resonance in India, making it perfect for drawing attention to critical sports updates and CTAs.
+        Primary Text/Highlight	#F7F7F7	Body text, major headings, card titles	A clean, bright off-white color that provides maximum legibility and contrast against both dark backgrounds.
+
+3.  **Typography:** All headings should be bold and legible.
+4.  **Geometry and Shape:**
+    * **Corners:** All actionable or container elements (cards, buttons, inputs) must have a standard medium rounded corner (`rounded-lg`).
+    * **Shadows:** Use subtle medium shadows on elevated elements like cards or modals (`shadow-md`).
+    * **Borders/Outline:** Use a faint one-pixel border (`border border-gray-200`) on inputs and cards where elevation is not used.
+5.  **Structure and Layout:**
+    * **Responsiveness:** The layout MUST be fully responsive and adapt gracefully from mobile (`sm:`) to tablet (`md:`) to desktop (`lg:`) views. Use fluid width (`max-w-7xl`, `mx-auto`).
+    * **Spacing:** Use consistent padding and margins (e.g., `p-6` for card padding, `my-4` for vertical spacing).
+    * **Interactions:** Buttons must use a smooth transition effect (`transition duration-150 ease-in-out hover:shadow-lg`).
+
+**Page-Specific Goal:** Create a page for get infomation about the cricket. Ensure all elements follow the defined geometric and color constraints.
