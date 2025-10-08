@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiBaseUrl: process.env.NUXT_PUBLIC_backend_api,
-      baseUrl: "http://192.229.87.153:8000/api",
+      baseUrl: "https://api.8jjsport.com.in",
     },
   },
   vite: { plugins: [tailwindcss()] },

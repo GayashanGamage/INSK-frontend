@@ -2,7 +2,7 @@ FROM node:20-alpine as build
 WORKDIR /app
 
 # ARG NUXT_PUBLIC_backend_api
-ENV NUXT_PUBLIC_backend_api="http://192.229.87.153:8000/api"
+ENV NUXT_PUBLIC_backend_api="https://api.8jjsport.com.in"
 
 COPY package*.json package-lock*.json ./
 RUN npm install
